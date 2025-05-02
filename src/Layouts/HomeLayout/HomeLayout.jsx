@@ -1,6 +1,7 @@
 import { Outlet } from "react-router";
-import Header from "../../components/Header/Header";
-import LatesNews from "../../components/LatesNews/LatesNews";
+import Header from "../../components/Header";
+import LatesNews from "../../components/LatesNews";
+import Navbar from "../../components/Navbar";
 
 const HomeLayout = () => {
     return (
@@ -10,6 +11,9 @@ const HomeLayout = () => {
                 <section className="w-11/12 mx-auto">
                     <LatesNews />
                 </section>
+                <nav className="w-11/12 mx-auto mt-8">
+                    <Navbar />
+                </nav>
             </header>
             <main>
                 <section className="left_nav"></section>

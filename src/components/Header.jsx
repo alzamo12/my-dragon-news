@@ -1,4 +1,5 @@
-import logo from "../../assets/logo.png"
+// import logo from "../../assets/logo.png"
+import logo from "../assets/logo.png"
 import { format } from "date-fns";
 const Header = () => {
     const date = Date().toString().split(" ").slice(0, 4);
